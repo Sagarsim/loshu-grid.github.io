@@ -1,0 +1,26 @@
+.game-board {
+    display: grid;
+    grid-template-rows: 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px;
+margin: auto;
+padding: 80px 0px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  border: 1px solid #555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #AAA;
+}
+
+.grid-input{
+width:40px;
+border: none;
+font-size: 30px;
+text-align: center;
+}
